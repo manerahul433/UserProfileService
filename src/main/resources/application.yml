@@ -1,0 +1,10 @@
+server:
+   port: 9091
+   
+custom:
+   kafka:
+     bootstrapAddress: http://localhost:3452
+     updatetopic: xyz
+     deletetopic: pqr
+     groupId: userprofileservice
+     
